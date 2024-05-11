@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: rgb(165, 161, 161);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.other-boxes {
+    background-color: rgb(165, 161, 161);
+    color: aliceblue;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header-menu {
+    width: 1000px;
+    height: 90px;
+    background: #2c2b2b;
+    color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bottom-menu {
+    width: 1000px;
+    height: 90px;
+    background: #2c2b2b;
+    color: aliceblue;
+    border-radius: 10px;
+    bottom: 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.social-icons {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.social-icons a {
+    margin: 18px 15px 0 0;
+}
+
+.social-icons img {
+    width: 52px;
+    height: 52px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2)
+}
+
+.menu-block {
+    width: 50%;
+}
+
+nav ul {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+    color: rgb(165, 161, 161);
+}
+
+.info-block {
+    width: 1000px;
+    height: 900px;
+    background: #2c2b2b;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.info-box {
+    margin-top: 20px;
+}
+
+.info-box p {
+    margin-left: 20px;
+}
+
+.about-text {
+    text-indent: 20px;
+}
+
+.info-block img {
+    width: 426px;
+    height: 260px;
+    float: left;
+    margin: 0 10px 10px 10px ;
+    border-radius: 10px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+.contact-box {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 40px;
+}

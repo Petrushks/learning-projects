@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <title>Новости</title>
+        <link rel="stylesheet" href="./css/newspaper.css" type="text/css">
+        <link rel="icon" href="./images/icons/cpu.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="wrapper">
+            <diV class="other_boxes"><h1>Empty</h1></diV>
+            <div class="header_menu">
+                <nav>
+                    <ul>
+                        <li><a href="news.html">Новости</a></li>
+                        <li>/</li>
+                        <li><a href="#">Обзоры</a></li>
+                        <li>/</li>
+                        <li><a href="#">Репортажи</a></li>
+                        <li>/</li>
+                        <li><a href="about.html">О нас</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="other_boxes"><h1>Empty</h1></div>
+        </div>
+        <div class="wrapper">
+            <div class="other_boxes"></div>
+            <div class="content_block">
+                <div class="wrapper">
+                    <div>
+                        <div class="column_div">
+                            <div class="news_img">
+                                <a href="https://rozetked.me/news/33147-emulyator-delta-pozvolyaet-sdelat-iz-iphone-stacionarnuyu-retro-konsol">
+                                    <img class="news_img3" src="./images/news_images/delta.jpeg">
+                                </a>
+                            </div>
+                            <div class="news_subject">
+                                <a href="https://rozetked.me/news/33147-emulyator-delta-pozvolyaet-sdelat-iz-iphone-stacionarnuyu-retro-konsol">
+                                    <h2 class="news_subject_left">Эмулятор Delta позволяет сделать из iPhone стационарную ретро-консоль</h2>
+                                </a>
+                                <p class="news_subject_left_text">В апреле в магазине App Store появился эмулятор Delta,<br>
+                                    через который на iPhone можно поиграть в классику с<br>NES, SNES, N64, Game Boy и Nintendo DS.</p>
+                            </div>
+                            <div class="news_date">
+                                <div class="date_block">
+                                    <date>20/04/24</date>
+                                </div>
+                                <div class="like_block">
+                                    <button class="likeButton" id="likeButton3">&#10084</button>
+                                    <span class="likeCount" id="likeCount3">0</span>
+                                    <script>
+
+                                        // variables
+                                        const likeButton3 = document.getElementById("likeButton3");
+                                        const likeCount3 = document.getElementById("likeCount3");
+
+                                        // get the value from the HTML element
+                                        let count3 = Number.parseInt(likeCount3.textContent, 10);
+                                        let isLiked3 = false;
+
+                                        // functions
+
+                                        const likeClick3 = () => {
+
+                                            // if the button hasn't been clicked
+
+                                            if (!isLiked3) {
+                                                likeButton3.classList.add('isLiked');
+                                                count3++;
+                                                likeCount3.innerText = count3;
+                                                isLiked3 = !isLiked3;
+                                            }
+
+                                            // if the like button has been clicked
+
+                                            else {
+                                                likeButton3.classList.remove('isLiked');
+                                                count3--;
+                                                likeCount3.innerText = count3;
+                                                isLiked3 = !isLiked3;
+                                            }
+                                        };
+
+                                        // event listeners
+
+                                        likeButton3.addEventListener('click', likeClick3)
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="column_div">
+                            <div class="news_img">
+                                <a href="https://rozetked.me/news/33166-sber-otkryl-poslednyuyu-versiyu-generativnoy-modeli-kandinsky-dlya-vseh-pol-zovateley">
+                                    <img class="news_img2" src="./images/news_images/Kandinsky2.jpg">
+                                </a>
+                            </div>
+                            <div class="news_subject">
+                                <a href="https://rozetked.me/news/33166-sber-otkryl-poslednyuyu-versiyu-generativnoy-modeli-kandinsky-dlya-vseh-pol-zovateley">
+                                    <h2 class="news_subject_right">Генеративная модель Kandinsky теперь<br>открята для всех пользователей</h2>
+                                </a>
+                                <p class="news_subject_right_text">Попробовать Kandinsky можно в ботах <a href="https://web.telegram.org/a/#6016052075" target="_balnk">Telegram</a> 
+                                    и <a href="https://vk.me/kandinskiy_bot" target="_blank">VK</a>,<br>а также на платформе 
+                                    <a href="https://fusionbrain.ai/" target="_blank">fusionbrain.ai</a>.</p>
+                            </div>
+                            <div class="news_date">
+                                <div class="date_block">
+                                    <date>23/04/24</date>
+                                </div>
+                                <div class="like_block">
+                                    <button class="likeButton" id="likeButton4">&#10084</button>
+                                    <span class="likeCount" id="likeCount4">0</span>
+                                    <script>
+                                        // variables
+                                        
+                                        const likeButton4 = document.getElementById("likeButton4");
+                                        const likeCount4 = document.getElementById("likeCount4");
+
+                                        // get the value from the HTML element
+
+                                        let count4 = Number.parseInt(likeCount4.textContent, 10);
+                                        let isLiked4 = false;
+
+                                        // functions
+
+                                        const likeClick4 = () => {
+                                            
+                                            // if the button hasn't been clicked
+
+                                            if (!isLiked4) {
+                                                likeButton4.classList.add("isLiked");
+                                                count4++;
+                                                likeCount4.innerText = count4;
+                                                isLiked4 = !isLiked4;
+                                            }
+
+                                            // if the like button has been cicked
+
+                                            else {
+                                                likeButton4.classList.remove("isLiked");
+                                                count4--;
+                                                likeCount4.innerText = count4;
+                                                isLiked4 = !isLiked4;
+                                            }
+                                        };
+
+                                        // event listeners
+
+                                        likeButton4.addEventListener('click', likeClick4);
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other_boxes"></div>
+        </div>
+        <div class="wrapper">
+            <div class="other_boxes"></div>
+            <div class="content_block">
+                <div class="wrapper">
+                    <div>
+                        <div class="column_div">
+                            <div class="news_img">
+                                <a href="https://rozetked.me/news/33118-modder-sdelal-portativnuyu-playstation-na-osnove-ps1">
+                                    <img class="news_img1" src="./images/news_images/ps1_base.png" title="PlayStation Portable">
+                                </a>
+                            </div>
+                            <div class="news_subject">
+                                <a href="https://rozetked.me/news/33118-modder-sdelal-portativnuyu-playstation-na-osnove-ps1">
+                                    <h2 class="news_subject_left">Энтузиаст собрал портативную PlayStation<br>на основе платы PS1</h2>
+                                </a>
+                                <p class="news_subject_left_text">Получилась портативная консоль с размерами<br>181×91,5×30,25 мм и кнопками
+                                     от контроллера DualShock.<br>Есть даже вибрация, но нет стиков.</p>
+                            </div>
+                            <div class="news_date">
+                                <div class="date_block">
+                                    <date>17/04/24</date>
+                                </div>
+                                <div class="like_block">
+                                        <button class="likeButton" id="likeButton1">&#10084</button>
+                                        <span class="likeCount" id="likeCount1">0</span>
+                                    <script>
+                                        const likeButton = document.getElementById('likeButton1');
+                                        const likeCount = document.getElementById('likeCount1');
+                                        let count = 0;
+                                
+                                        likeButton.addEventListener('click', () => {
+                                        count++;
+                                        likeCount.innerText = count;
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="column_div">
+                            <div class="news_img">
+                                <a href="https://rozetked.me/news/33119-samsung-predstavila-pervuyu-v-mire-pamyat-lpddr5x-so-skorost-yu-10-7-gbit-s-i-emkost-yu-32-gb">
+                                    <img class="news_img2" src="./images/news_images/LPDDR5_16GB_A.jpg" title="LPDDR5">
+                                </a>
+                            </div>
+                            <div class="news_subject">
+                                <a href="https://rozetked.me/news/33119-samsung-predstavila-pervuyu-v-mire-pamyat-lpddr5x-so-skorost-yu-10-7-gbit-s-i-emkost-yu-32-gb">
+                                    <h2 class="news_subject_right">Samsung представила первую в мире память LPDDR5X</h2>
+                                </a>
+                                <p class="news_subject_right_text">Новая память LPDDR5X предназначена для ПК,<br>ускорителей, серверов и автомобилей.</p>
+                            </div>
+                            <div class="news_date">
+                                <div class="date_block">
+                                    <date>17/04/24</date>
+                                </div>
+                                <div class="like_block">
+                                        <button class="likeButton" id="likeButton2">&#10084</button>
+                                        <span class="likeCount" id="likeCount2">0</span>
+                                    <script>
+                                        const likeButton2 = document.getElementById("likeButton2");
+                                        const likeCount2 = document.getElementById("likeCount2");
+                                        let count2 = 0;
+
+                                        likeButton2.addEventListener("click", () => {
+                                            count2++;
+                                            likeCount2.innerText = count2;
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other_boxes"></div>
+        </div>
+        <div class="wrapper">
+            <div class="other_boxes"></div>
+            <div class="bottom_menu">
+                <div class="wrapper">
+                    <div class="menu_block">
+                        <nav>
+                            <ul>
+                                <li></li>
+                                <li><a href="news.html">Новости</a></li>
+                                <li>/</li>
+                                <li><a href="#">Обзоры</a></li>
+                                <li>/</li>
+                                <li><a href="#">Репортажи</a></li>
+                                <li>/</li>
+                                <li><a href="about.html">О нас</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://vk.com/droider_ru?from=search" target="_blank">
+                            <img src="./images/icons/vk.png">
+                        </a>
+                        <a href="https://web.telegram.org/a/#-1001050100853" target="_blank">
+                            <img src="./images/icons/telegram.png">
+                        </a>
+                        <a href="https://www.youtube.com/@rozetked" target="_blank">
+                            <img src="./images/icons/youtube.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="other_boxes"></div>
+        </div>
+    </body>
+</html>
